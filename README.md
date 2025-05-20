@@ -25,18 +25,20 @@ FuelBill is a PHP-based billing system designed for petrol pump stations. It hel
 
 ## 📁 Folder Structure
 FuelBill/
-├── index.php
-├── bill.php
-├── connect.php
-├── styles/
-│ └── style.css
-├── scripts/
-│ └── main.js
-├── assets/
-│ └── [images/icons]
-├── database/
-│ └── fuelbill.sql
-└── README.md
+  ├── index.php               # Homepage or billing interface
+  ├── bill.php                # Bill calculation and display
+  ├── connect.php             # Database connection logic
+  ├── database/
+  │   └── fuelbill.sql        # SQL file for setting up DB
+  ├── styles/
+  │   └── style.css           # Custom CSS styles
+  ├── scripts/
+  │   └── main.js             # Optional JavaScript (if used)
+  ├── assets/
+  │   └── [images/icons]      # Images or icons used in UI
+  ├── .gitignore              # (Optional) Git ignored files
+  └── README.md               # Project overview and instructions
+
 
 ---
 
@@ -66,11 +68,15 @@ cd FuelBill
 - Go to your browser and open:
   http://localhost/FuelBill/
 
+---
+
 ## 🧠 How It Works
 
 - User selects fuel type and quantity
 - PHP calculates total price based on pre-set fuel rates
 - The bill is generated and optionally stored in the database
+
+---
 
 ## 📈 Future Enhancements
 
@@ -78,6 +84,8 @@ cd FuelBill
 - Print/download bill as PDF
 - Add authentication (login system)
 - Mobile-friendly improvements
+
+--- 
 
 ## 👩‍💻 Author
 Nidhi Dwivedi
