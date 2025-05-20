@@ -23,7 +23,9 @@ FuelBill is a PHP-based billing system designed for petrol pump stations. It hel
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
+
+```yaml
 FuelBill/
   ├── index.php               # Homepage or billing interface
   ├── bill.php                # Bill calculation and display
@@ -38,7 +40,7 @@ FuelBill/
   │   └── [images/icons]      # Images or icons used in UI
   ├── .gitignore              # (Optional) Git ignored files
   └── README.md               # Project overview and instructions
-
+```
 
 ---
 
